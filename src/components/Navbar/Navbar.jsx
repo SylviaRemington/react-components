@@ -13,4 +13,5 @@ const Navbar = () => {
         <a href="/the-fine-print">Terms of Service</a>
     </nav>
 };
-
+// Lastly, need to export this - Navbar being the name that we've given the React Component here.
+export default Navbar;
