@@ -36,6 +36,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar/Navbar.jsx';
+import FounderListItem from './components/FounderListItem/FounderListItem.jsx';
 
 const App = () => {
   return (
