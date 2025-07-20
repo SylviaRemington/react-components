@@ -1,4 +1,5 @@
 // src/components/Navbar/Navbar.jsx
+import './Navbar.css';
 
 // Basic syntax for a component
 // (can do this the same way as we declare a JS arrow function)
