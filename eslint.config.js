@@ -62,8 +62,8 @@ export default defineConfig([
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-      'react/prop-types': 'off',
-      'react/no-unescaped-entities': 'off',
+      'react/prop-types': 'off', //Turning this off... It disables warnings if we don't declare prop types or turn off prop types, which we won't be doing in this lesson.
+      'react/no-unescaped-entities': 'off', //Turning this off... It disables warnings if we use contractions or apostrophes in JSX (which are special characters). 
     },
   },
 ]);
