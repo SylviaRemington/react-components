@@ -35,10 +35,13 @@
 // export default App
 
 import './App.css';
+import Navbar from './components/Navbar/Navbar.jsx';
 
 const App = () => {
   return (
     <> 
+    {/* One way to add Navbar below */}
+    <Navbar></Navbar>
       <main>
         <h1>Welcome to Hyperbo.ly</h1>
         <h2>The future is firmly in front of us!</h2>
