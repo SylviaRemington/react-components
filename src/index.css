@@ -67,8 +67,3 @@ button:focus-visible {
   }
 } */
 
-/* Currently, the css for our Navbar lives in index.css; however, we want to put this in Navbar.css */
-#top-navbar {
-  display: flex;
-  justify-content: space-around;
-}
