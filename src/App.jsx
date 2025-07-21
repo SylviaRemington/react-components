@@ -53,10 +53,7 @@ const App = () => {
       </main>
       <h2>Our Founders</h2>
       <ul>
-        <li>
-          <h3>Elizabeth Holmes: CEO</h3>
-          <p>MBA from SuperLegit University</p>
-        </li>
+        <FounderListItem/>
         <li>
           <h3>Sam Bankman-Fried: CFO</h3>
           <p>CPA from TotallyReal State</p>
