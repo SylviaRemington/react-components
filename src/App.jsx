@@ -37,6 +37,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar.jsx';
 import FounderListItem from './components/FounderListItem/FounderListItem.jsx';
+// ! stopped at "Passing Data with Props" - start here
 
 const App = () => {
   return (
