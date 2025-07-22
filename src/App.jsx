@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import FounderListItem from './components/FounderListItem/FounderListItem.jsx';
 
 
-// Putting this in before App Component
+// Putting this in before App Component, so that can make FounderListItem more dynamic (lines48-53)
 const founders = [
   {
     name: 'Elizabeth Holmes',
