@@ -3,6 +3,29 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import FounderListItem from './components/FounderListItem/FounderListItem.jsx';
 
 
+// Putting this in before App Component
+const founders = [
+  {
+    name: 'Elizabeth Holmes',
+    title: 'CEO',
+    credential: 'MBA from SuperLegit University',
+    id: 1,
+  },
+  {
+    name: 'Sam Bankman-Fried',
+    title: 'CFO',
+    credential: 'CPA from TotallyReal State',
+    id: 2,
+  },
+  {
+    name: 'Matt Damon',
+    title: 'CMO',
+    credential: 'Was in that movie you saw',
+    id: 3,
+  },
+];
+
+
 const App = () => {
   return (
     <>
@@ -20,17 +43,15 @@ const App = () => {
 
       <h2>Our Founders</h2>
       <ul>
-        <FounderListItem name="Elizabeth Holmes" title="CEO"/>
-        {/* <li>
-          <h3>Sam Bankman-Fried: CFO</h3>
-          <p>CPA from TotallyReal State</p>
-        </li>
-        <li>
-          <h3>Matt Damon: CMO</h3>
-          <p>Was in that Movie You saw</p>
-        </li> */}
-        <FounderListItem name="Sam Bankman-Fried" title="CFO"/>
-        <FounderListItem name="Matt Damon" title="CMO"/>
+        {/* Us of the map array method */}
+        {founders.map((founder) => (
+          <FounderListItem
+            key={founder.id}
+            name={founder.name}
+            title={founder.title}
+          />
+        ))}
+
       </ul>
     </>
   );
