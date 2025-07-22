@@ -20,7 +20,7 @@ const App = () => {
 
       <h2>Our Founders</h2>
       <ul>
-        <FounderListItem/>
+        <FounderListItem name="Elizabeth Holmes"/>
         <li>
           <h3>Sam Bankman-Fried: CFO</h3>
           <p>CPA from TotallyReal State</p>
