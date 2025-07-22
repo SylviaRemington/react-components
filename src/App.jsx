@@ -58,6 +58,3 @@ const App = () => {
 };
 
 export default App;
-
-
-// Splitting Nav Section Into A Component
