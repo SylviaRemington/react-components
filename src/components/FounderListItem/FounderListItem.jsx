@@ -4,7 +4,7 @@
 const FounderListItem = (props) => {
   return (
     <li>
-      <h3>Hello, I'm {props.name}, the {props.title}!</h3>
+      <h3>Hello, I'm {props.founder.name}, the {props.founder.title}!</h3>
     </li>
   );
 };

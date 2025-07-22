@@ -46,9 +46,10 @@ const App = () => {
         {/* Us of the map array method */}
         {founders.map((founder) => (
           <FounderListItem
-            key={founder.id}
-            name={founder.name}
-            title={founder.title}
+            // key={founder.id}
+            // name={founder.name}
+            // title={founder.title}
+            founder={founder}
           />
         ))}
 
