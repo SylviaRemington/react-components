@@ -8,7 +8,8 @@ const App = () => {
     <>
       {/* One way to add Navbar below */}
       {/* <Navbar></Navbar> */}
-      {/* Second way to add Navbar below with self-closing tag. */}
+      {/* Second way to add Navbar below with self-closing tag - especially if no child elements.
+      If child element, then the convention of <Navbar></Navbar> is better. */}
       <Navbar />
       <main>
         <h1>Welcome to Hyperbo.ly</h1>

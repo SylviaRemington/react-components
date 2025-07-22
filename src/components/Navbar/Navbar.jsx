@@ -16,3 +16,4 @@ const Navbar = () => {
 };
 // Lastly, need to export this - Navbar being the name that we've given the React Component here.
 export default Navbar;
+
