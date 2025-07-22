@@ -1,4 +1,5 @@
 // src/components/Navbar/Navbar.jsx
+// Need to import the Navbar css into the Navbar.jsx file so that it can be used. //Also, this needs to be a relative path - fyi.
 import './Navbar.css';
 
 // Basic syntax for a component
