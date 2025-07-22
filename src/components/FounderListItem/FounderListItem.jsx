@@ -1,5 +1,6 @@
 // src/components/FounderListItem/FounderListItem.jsx
 // DECLARED THE COMPONENT & EXPORTED IT //the component FounderListItem
+
 const FounderListItem = () => {
   return (
     <li>
